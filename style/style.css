@@ -1,0 +1,25 @@
+p {
+  text-align: justify;
+}
+
+body {
+  font-family: 'Major Mono Display', monospace;
+}
+
+h1,
+p {
+  text-shadow: 2px 2px 5px black;
+}
+
+@media (min-width: 768px) {
+  .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%;
+  }
+}
+
+.carousel-multi-item-2 .card img {
+  border-radius: 2px;
+}
+/*# sourceMappingURL=style.css.map */

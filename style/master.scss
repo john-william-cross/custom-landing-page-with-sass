@@ -1,0 +1,19 @@
+//<------- Things in the master file must be in this order ---------->
+
+// Access variables and functions; 
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Customize the Bootstrap theme
+@import "theme.scss";
+
+// Bootstrap defaults
+@import "bootstrap/bootstrap.scss";
+
+// Style overwriting Bootstrap 
+@import "style.scss";
+
+// This is what I've imported based on documentation I found online
+@import "scss/fontawesome.scss";
+@import "scss/solid.scss";
